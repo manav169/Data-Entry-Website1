@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles/style.css">
+      <title>Full Stack Web Project</title>
+    </head>
+    <body>
+        <h1>User Input Form</h1>
+        <form target="_blank" id="userForm"  action="http://localhost/fullstack_project/php/submit.php" method="POST" enctype="multipart/form-data">
+
+            <label for="name">Enter your name:</label>
+            <input type="text" name="name" id="name" required>
+            
+            <br><br>
+            
+            <label for="contact">Contact number: </label>
+            <input type="text" id="contact" name="contact" required>
+            
+            <br><br>
+
+            <label for="address">Enter your address:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <br><br>
+
+            <label for="image"> Upload Photograph(JPEG/JPG/PNG):</label>
+            <input type="file" accept="image/jpeg, image/jpg, image/png" id="image" name="image" required>
+            
+            <br><br>
+            
+            <button type="submit" value="Upload image">Submit</button>
+
+
+
+        </form>
+    </body>
+</html>
