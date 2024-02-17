@@ -6,3 +6,4 @@ if(!$conn)
 header("Location:errorpage.php?err=101")
 
 ?>
+<!--  -->
